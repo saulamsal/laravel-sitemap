@@ -73,7 +73,7 @@ class Sitemap
      *
      * @return void
      */
-    public function add(string $loc, ?string $lastmod = null, ?string $priority = null, ?string $freq = null, array $images = [], ?string $title = null, array $translations = [], array $videos = [], array $googlenews = [], array $alternates = []): void
+    public function add(?string $loc, ?string $lastmod = null, ?string $priority = null, ?string $freq = null, array $images = [], ?string $title = null, array $translations = [], array $videos = [], array $googlenews = [], array $alternates = []): void
     {
         $params = [
             'loc'           => $loc,

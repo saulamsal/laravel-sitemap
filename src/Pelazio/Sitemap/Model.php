@@ -16,7 +16,7 @@ class Model
 
     private bool $useStyles = true;
 
-    private string $sloc = '/vendor/sitemap/styles/';
+    private ?string $sloc = '/vendor/sitemap/styles/';
 
     private bool $useCache = false;
 
@@ -56,7 +56,7 @@ class Model
         return $this->sitemaps;
     }
 
-    public function getTitle(): string
+    public function getTitle(): ?string
     {
         return $this->title;
     }
@@ -101,7 +101,7 @@ class Model
         return $this->useLimitSize;
     }
 
-    public function getMaxSize(): int
+    public function getMaxSize(): ?int
     {
         return $this->maxSize;
     }
@@ -141,7 +141,7 @@ class Model
         $this->useStyles = $useStyles;
     }
 
-    public function setSloc(string $sloc): void
+    public function setSloc(?string $sloc): void
     {
         $this->sloc = $sloc;
     }
