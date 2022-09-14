@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Pelazio\\Sitemap": "src/",
+            "Pelazio\\Sitemap": "src/"
         }
     },
     "extra": {
