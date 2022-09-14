@@ -13,7 +13,7 @@
     ],
     "support": {
         "issues": "https://github.com/pelazio/laravel-sitemap/issues",
-        "source": "https://github.com/pelazio/laravel-sitemap",
+        "source": "https://github.com/pelazio/laravel-sitemap"
     },
     "require": {
         "php": ">=7.4|^8",
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Pelazio\\Sitemap": "src/"
+            "Pelazio\\Sitemap": "src/",
         }
     },
     "extra": {
